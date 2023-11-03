@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package grpc_server;
+option go_package = "github.com/suhail34/user-mgmt;server";
+
+message UserByIdRequest {
+  int64 userId = 1;
+}
+
+message UsersByIdsRequest {
+    repeated int64 usersByIdsRequest = 1;
+}
+
+message UserByIdResponse {
+    int64 userId = 1;
+    string firstName = 2;
+    string lastName = 3;
+    string city = 4;
+    string phone = 5;
+    double height = 6;
+    bool married = 7;
+}
+
+message UsersByIdsResponse {
+    repeated UserByIdResponse users = 1;
+  }
+
+service UserManagement{
+  rpc GetUserById(UserByIdRequest) returns (UserByIdResponse);
+  rpc GetUsersByIds(UsersByIdsRequest) returns (UsersByIdsResponse);
+}

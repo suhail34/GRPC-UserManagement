@@ -1,0 +1,48 @@
+[
+  {
+    "userId" : 1,
+    "firstName" : "John",
+    "lastName" : "Doe",
+    "city" : "Mexico",
+    "phone" : "1445373212",
+    "height" : 5.10,
+    "married" : false
+  },
+  {
+    "userId" : 2,
+    "firstName" : "Michel",
+    "lastName" : "Jackson",
+    "city" : "Atlanta",
+    "phone" : "5432176523",
+    "height" : 5.71,
+    "married" : true
+  },
+  {
+    "userId" : 3,
+    "firstName" : "Mike",
+    "lastName" : "Tyson",
+    "city" : "Toronto",
+    "phone" : "6232175523",
+    "height" : 5.80,
+    "married" : true
+  },
+  {
+    "userId" : 4,
+    "firstName" : "Evander",
+    "lastName" : "Holyfield",
+    "city" : "Georgia",
+    "phone" : "7431290865",
+    "height" : 6.0,
+    "married" : false
+  },
+  {
+    "userId" : 5,
+    "firstName" : "Khabib",
+    "lastName" : "Nurmagomedov",
+    "city" : "Dagestan",
+    "phone" : "4321903278",
+    "height" : 5.92,
+    "married" : true
+  }
+]
+
